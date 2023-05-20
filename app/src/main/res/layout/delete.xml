@@ -45,14 +45,15 @@
             android:background="@drawable/crv"/>
         <Button
             android:layout_width="130dp"
-            android:layout_height="50dp"
             android:id="@+id/no"
             android:text="No"
-            android:textColor="#F2EDF4"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:textColor="#F7F6F8"
             android:textSize="22dp"
             android:textStyle="bold"
-            android:layout_marginStart="10dp"
-            />
+            android:layout_marginStart="5dp"
+            android:background="@drawable/crv"/>
 
     </LinearLayout>
 </LinearLayout>
