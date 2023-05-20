@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="376dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/color2">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/baseline_delete_24"
+        app:tint="#AA00FF" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Are You Sure ?"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:textColor="#AA00FF"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="130dp"
+            android:id="@+id/yes"
+            android:text="Yes"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:textColor="#F7F6F8"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:background="@drawable/crv"/>
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:id="@+id/no"
+            android:text="No"
+            android:textColor="#F2EDF4"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            />
+
+    </LinearLayout>
+</LinearLayout>
